@@ -1,0 +1,1 @@
+This is only the homepage layout including html, css and figma design for the home page. All the stuffs that are in this folder are related to html only and other stuffs are outside this "HomePage" folder.

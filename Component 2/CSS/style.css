@@ -1,0 +1,165 @@
+* {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.server {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font: bolder;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.dumb {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: #F8F9FC;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    height: 80px;
+    left: 20%;
+    position: fixed;
+    z-index: 0;
+    box-shadow: 0px 0px 20px rgb(199, 199, 199);
+}
+
+.search{
+font-size: 12px;
+height: 40px;
+width: 350px;
+background-color: #F1F1F1;
+border-width: 0px;
+border-radius: 6px;
+color: 555555;
+}
+
+.searchbox {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+
+}
+
+.fa.fa-search{
+    color: white;
+}
+
+.fa.fa-bell{
+
+    color: gainsboro;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 32px;
+    right: 230px;
+}
+
+.fa.fa-envelope{
+
+    color: gainsboro;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 31px;
+    right: 180px;
+}
+
+.btn{
+    width: 47px;
+    height: 40px;
+    background-color: #4e73df;
+    border-color: #4e73df;
+    border: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position: absolute;
+    right: .1px;
+}
+
+.line{
+    border-right: 2px solid #CFC1C1;
+    height: 35px;
+    position: absolute;
+    top: 23px;
+    right: 195px;
+}
+
+.name{
+    color: #848484;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 34px;
+    right: 75px;
+}
+
+.adminpanel{
+    font-family: "Quicksand", Bold, Round, sans-serif;;
+    font-size: 28px;
+    font: bolder;
+}
+
+.torpey{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 30px;
+    top: 21px;
+
+}
+
+aside {
+    background-color: #4e73df;
+    color: #FFFF;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo{
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    top: 17px;
+    left: 27px;
+}
+
+
+main {
+    margin-top: 5px;
+    margin-left: 5px;
+    min-height: 50%;
+    width: 78%;
+    left: 20%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: absolute;
+    top: 80px;
+    padding-left: 1%;
+    padding-top: 1%;
+    z-index: -1;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    text-align: center;
+    bottom: 0;
+    left: 20%;
+    height: 35px;
+    width: 80%;
+    position: fixed;
+    padding-top: 15px;
+}
